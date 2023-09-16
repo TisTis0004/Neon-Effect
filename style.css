@@ -1,0 +1,92 @@
+h1{padding:0; margin:0;}
+body{
+    background-color: rgb(26, 9, 80);
+}
+.header > *{
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+}
+ul {
+    margin-left: -5px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+li {
+    margin-bottom: 30px;
+}
+.sign {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 30%;
+    top: 20px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+.sign:hover{
+    background-color: #4a4949;
+    cursor: pointer;
+}
+.sign:active{
+    background-color: #ffffff;
+    color:black
+}
+.card {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.container {
+    color:white;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.price3{
+    background-color: #a5017f;
+    box-shadow: 0px 0px 5px #a5017f , 0px 0px 25px #a5017f;
+}
+.head3 {
+    background-color:#00CB2F;
+}
+.price1{
+    background-color: #76ad07;
+    box-shadow: 0px 0px 5px #76ad07 , 0px 0px 25px #76ad07;
+}
+.head1 {
+    background-color:#6200d1;
+}
+.price2{
+    background-color: #0187b0;
+    box-shadow: 0px 0px 5px #0187b0 , 0px 0px 25px #0187b0;
+}
+.head2 {
+    background-color:#D63200;
+}
+.price1:hover{
+    box-shadow: 0px 0px 5px #76ad07 , 0px 0px 25px #76ad07,0px 0px 50px #76ad07,0px 0px 100px #76ad07,0px 0px 150px #76ad07;
+}
+.price2:hover{
+    box-shadow: 0px 0px 5px #0187b0 , 0px 0px 25px #0187b0,0px 0px 50px #0187b0,0px 0px 100px #0187b0,0px 0px 150px #0187b0;
+}
+.price3:hover{
+    box-shadow: 0px 0px 5px #a5017f , 0px 0px 25px #a5017f,0px 0px 50px #a5017f,0px 0px 100px #a5017f,0px 0px 150px #a5017f;
+}
+@media(max-width:941px){
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
